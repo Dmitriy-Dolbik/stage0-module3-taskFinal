@@ -1,11 +1,6 @@
 package lang.print.gaps.finalModuleTask;
 
 public class NumberReverter {
-    public static void main(String[] args) {
-        NumberReverter nr = new NumberReverter();
-        nr.revert(536);
-
-    }
     public void revert(int number) {
         int reversedNumber = 0;
         while (number != 0 ){
